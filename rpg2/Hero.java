@@ -1,6 +1,9 @@
 public class Hero{
 	private String name="ミナト";
 	private int hp=100;
+	public Hero(){
+		System.out.println("Heroクラスのコンストラクタが動作");
+	}
 	public void attack(Matango m){
 		System.out.println(this.getName()+"の攻撃!");
 		m.hp-=5;
@@ -9,9 +12,8 @@ public class Hero{
 	public final void slip(){
 		this.hp-=5;
 		System.out.println(this.getName()+"は転んだ");
-		System.out.println("５ポイントのダメージを与えた!");
 	}
-	public final void run(){
+	public void run(){
 		System.out.println(this.getName()+"は逃げ出した!");
 	}
 	public String getName(){
