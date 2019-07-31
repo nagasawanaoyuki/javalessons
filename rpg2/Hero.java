@@ -19,4 +19,7 @@ public class Hero{
 	public String getName(){
 		return this.name;
 	}
+	public void setHp(int hp){
+		this.hp=hp;
+	}
 }
