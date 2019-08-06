@@ -4,7 +4,7 @@ public class Main2{
 	 Date now=new Date();
 	 System.out.println(now);
 	 System.out.println(now.getTime());
-	 Date past=new Data(1316622225935L);
+	 Date past=new Date(1316622225935L);
 	 System.out.println(past);
   }
 }
